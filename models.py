@@ -7,3 +7,7 @@ class Task(BaseModel):
     description: str | None = None
     completed: bool = False
 
+#user Model
+class User(BaseModel):
+    username: str
+    password: str
