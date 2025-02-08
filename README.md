@@ -9,7 +9,7 @@ This project demonstrates user authentication using FastAPI, SQLAlchemy, and Pos
 *   **PostgreSQL:**  A powerful and robust open-source relational database system.
 *   **Alembic:**  A lightweight database migration tool for SQLAlchemy.
 *   **Pydantic:**  Data validation and settings management using Python type hinting.
-*   **PyJWT (or similar):** For creating and verifying JSON Web Tokens (JWTs).  (Not explicitly listed in your prompt, but essential for secure authentication)
+*   **PyJWT (or similar):** For creating and verifying JSON Web Tokens (JWTs).  
 *   **Passlib (or similar):** For password hashing. (Also crucial for security)
 
 ## Features
@@ -22,7 +22,7 @@ This project demonstrates user authentication using FastAPI, SQLAlchemy, and Pos
 
 ## Installation
 
-1.  **Clone the repository:** `git clone https://github.com/YOUR_USERNAME/fastapi-auth.git` (Replace with your repo URL)
+1.  **Clone the repository:** `git clone https://github.com/eyuuab/fastapi-auth.git` 
 2.  **Create a virtual environment:** `python3 -m venv venv`
 3.  **Activate the virtual environment:**
     *   Linux/macOS: `source venv/bin/activate`
@@ -35,7 +35,7 @@ This project demonstrates user authentication using FastAPI, SQLAlchemy, and Pos
 
 ## Usage
 
-1.  **Run the FastAPI application:** `uvicorn main:app --reload` (Assuming your main file is `main.py`)
+1.  **Run the FastAPI application:** `uvicorn main:app --reload` 
 2.  **Access the API documentation:** Go to `http://127.0.0.1:8000/docs` (or your server's address) in your browser.  This will provide interactive API documentation.
 
 ## API Endpoints (Examples)
